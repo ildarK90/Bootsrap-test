@@ -1,0 +1,479 @@
+.presentation{
+    padding: 120px 0 180px 0;
+}
+
+
+.forms {
+    padding: 80px 0;
+
+    background-image: url('../img/image5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kForm{
+    padding: 48px 40px;
+
+    background-color: #fff;
+}
+
+.kForm__input{
+    color: var(--gray-600, #9A9CA5);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.kForm__lable {
+    color: var(--gray-800, #424551);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.kForm__title {
+    color: var(--gray-900, #1E212C);
+    text-align: center;
+
+    /* h3 */
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 42px */
+}
+
+.kForm__button {
+    margin: 0 auto;
+    display: flex;
+    padding: 2px 32px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px; /* 314.286% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: var(--primary, #FF5A30);
+    border-radius: 4px;
+    background-color:  rgb(255, 141, 48);    
+    border: none;
+}
+
+.box__flex{
+    padding-top: 15px;
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.kForm__lable {
+    width: 92%;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.footer {
+    background: var(--gray-900, #1E212C);
+    color: white;
+    padding-top:80px;
+}
+
+.social__media {
+    display: flex;
+    gap: 10px;
+   
+}
+
+.social__element{
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    position: center;
+    content:'';
+    
+}
+
+.social__element:first-child{
+    background-image: url('../img/Whatsapp.png');
+}
+
+.social__element:nth-child(2){
+    background-image: url('../img/Messanger.png');
+}
+
+.social__element:nth-child(3){
+    background-image: url('../img/Facebook.png');
+}
+
+.social__element:nth-child(4){
+    background-image: url('../img/Twitter.png');
+}
+
+.social__element:nth-child(5){
+    background-image: url('../img/YouTube.png');
+}
+
+.createx {
+    color: rgb(167, 142, 146);
+
+    /* small/regular */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.subscribe {
+    color: rgb(167, 142, 146);
+    /* extrasmall/regular */
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+    padding-top: 16px;
+}
+
+.footer__form {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+}
+
+.footer__form input {
+      /* extrasmall/regular */
+      background-color: rgba(185, 172, 179, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.20);
+      border-radius: 4px;
+      width: 314px;
+      font-family: Ubuntu;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 21px */
+      padding: 11px 0 12px 16px;
+ 
+}
+
+.footer__form button {
+    background: #FF5A30;
+    padding: 0 25px;
+    border: none;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 314.286% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-radius: 0px 4px 4px 0px;
+    
+
+}
+
+.say {
+    color: var(--white, #FFF);
+    /* h4 */
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+}
+.footer__list {
+    list-style: none;
+    padding:0;
+}
+
+.list__two {
+    padding-left: 60px;
+}
+
+.list__three {
+    padding-left: 108px;
+}
+
+.footer__list li {
+    color: rgb(167, 142, 146);
+    /* base/regular */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+.footer__list h4 {
+    color: var(--white, #FFF);
+
+/* h6 */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer__span {
+    color: var(--white, #FFF);
+    /* base/regular */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+
+
+
+    /* <<<<<<<news page>>>>>>>> */
+
+
+
+
+.news__header {
+    margin-bottom: 120px;
+    padding-top: 20px;
+    height:600px;
+    background-image: url('../img/news__header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90% 0%;
+}
+
+.header__wrap {
+    display: flex;
+    /* justify-content: space-between; */
+
+    
+}
+.news__menu {
+
+    padding-left: 40px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: space-between;
+
+}
+
+.news__menu li {
+    /* flex-basis: 100px; */
+    text-align: left;
+    padding-left: 0;
+    color: var(--gray-800, #424551);
+
+    /* base/bold */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+}
+
+.news__menu li:hover {
+    color:  #FF5A30;
+}
+
+.article__text {
+    padding: 24px 0 0 24px;
+}
+
+.articles p {
+    padding-top: 16px;
+}
+
+.news__call {
+    position: relative;
+}
+
+.news__call::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/news/iPhone.png');
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateX(-45px) translateY(-50%);
+}
+
+.news__talk {
+    position: relative;
+}
+
+.news__talk::before {
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-image: url('../img/news/Chat.png');
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateX(-55px) translateY(-50%);
+}
+
+.homepage__p {
+    color: var(--gray-800, #424551);
+    /* small/regular */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.homepage__span {
+    color: var(--gray-600, #9A9CA5); 
+}
+
+.news__h1 {
+    color: var(--gray-900, #1E212C);
+
+    /* display/1 */
+    font-family: Ubuntu;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 93.6px */
+    letter-spacing: 1px;
+}
+
+.undernews__p {
+    color: var(--gray-700, #787A80);
+
+    /* lead/regular */
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+
+.categories__menu {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+    /* flex-basis: 165px; */
+    padding: 40px 0 30px 0px;
+  
+}
+
+.categories__menu li{
+    padding: 10px 57px 10px 44px;
+    color: var(--gray-600, #9A9CA5);
+    text-align: center;
+    /* base/bold */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+}
+
+.categories__menu li:hover {
+    border-radius: 4px;
+    border: 1px solid var(--primary, #FF5A30);
+}
+.article__text h4 {
+    color: var(--gray-900, #1E212C);
+
+    /* lead/bold */
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+}
+
+.article__text p {
+    color: var(--gray-800, #424551);
+
+    /* base/regular */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+.articles__menu {
+    padding-left: 0;
+    padding-top: 12px;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none; 
+    gap: 10px;
+}
+
+.articles__menu li{
+    color: var(--gray-700, #787A80);
+    /* small/regular */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.articles__menu li::before {
+    content:'|';
+    padding-right: 15px;
+}
+
+.articles__menu li:first-child:before {
+    content: none;
+}
+
+.articles img {
+    width: 100%;
+}
+
+.pagination {
+    padding: 40px 0 150px 0;
+    color: var(--gray-800, #424551);
+
+    /* base/bold */
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+}
+
+.pagination__menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+
+.pagination__menu li:last-child {
+    background-image: url('../img/news/Right.png');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
